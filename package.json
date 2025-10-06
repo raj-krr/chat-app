@@ -4,12 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js"
+    "start": "node index.js",
+    "dev": "ts-node-dev --respawn --transpile-only server.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.6.2",
     "express": "^5.1.0",
-    "socket.io": "^4.8.1"
-  }
+    "socket.io": "^4.8.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raj-krr/chat-app-js.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/raj-krr/chat-app-js/issues"
+  },
+  "homepage": "https://github.com/raj-krr/chat-app-js#readme"
 }
