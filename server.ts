@@ -33,7 +33,7 @@ io.on("connection", (socket: Socket) => {
   });
 });
 
-server.listen(80, "0.0.0.0", () => {
-  console.log(`Server running on http://13.127.60.12:80`);
+server.listen(5000, "0.0.0.0", () => {
+  console.log(`Server running on http://13.127.60.12:5000`);
 });
 
